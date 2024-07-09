@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.ind-container {
+	display: flex;
+	max-width: 100%;
+	padding: 1%;
+	background-color: white;
+	border-radius: 3px;
+	justify-content: space-between;
+}
+.ind-head {
+	display: flex;
+	align-items: center;
+	column-gap: 30px;
+}
+.text-l-gray {
+	color: gray;
+	font-size: 0.8rem;
+}
+.text-dollar-gray {
+	color: gray;
+	font-size: 1.3rem;
+	font-weight: 700;
+}
+.text-blue {
+	color: skyblue;
+	font-size: 1.4rem;
+	font-weight: 700;
+}
+.text-green {
+	color: rgb(146, 205, 57);
+	font-size: 1.4rem;
+}
+.text-black-bold {
+	font-size: 1.3rem;
+	font-weight: 700;
+}
+.text-small {
+	font-size: 0.8rem;
+	font-weight: 700;
+	color: rgb(80, 80, 80);
+	margin-left: 40px;
+}
+h6 {
+	font-size: 0.9rem;
+	font-weight: 700;
+	color: rgb(80, 80, 80);
+}
+.ind-details {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: repeat(1fr, 3);
+	justify-content: space-between;
+	column-gap: clamp(10px, 30px, 40px);
+}
+.ind-marketValue,
+.ind-pl {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: repeat(3, 1fr);
+	column-gap: 20px;
+}
+.f-end {
+	justify-self: flex-end;
+}
+.f-start {
+	justify-self: flex-start;
+}
+.ind-actions {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.actions {
+	outline: none;
+	border: 2px solid rgb(219, 71, 22);
+	border-radius: 3px;
+	padding: 4px 6px;
+	color: rgb(219, 71, 22);
+	font-weight: 600;
+	background-color: white;
+	font-size: 1.1rem;
+}
+.actions:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.ind-head,
+.ind-details,
+.ind-marketValue,
+.ind-actions,
+.ind-pl {
+	background-color: rgb(243, 241, 241);
+	padding: 8px 12px;
+}
+.full-width {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+.text-light {
+	color: rgb(88, 87, 87);
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+.text-black {
+	font-weight: 700;
+	font-size: 0.9rem;
+}
+@media only screen and (max-width: 600px) {
+	.ind-container {
+		display: flex;
+		flex-direction: column;
+		padding: 2%;
+		row-gap: 10px;
+	}
+	.ind-actions {
+		row-gap: 10px;
+	}
+}

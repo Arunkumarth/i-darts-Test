@@ -1,0 +1,36 @@
+.App {
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 1%;
+	column-gap: 1%;
+}
+.table-collection {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	background-color: rgb(178, 178, 178);
+	flex-grow: 6;
+	padding: 1%;
+}
+.chart {
+	flex-grow: 1;
+	/* padding: 10px; */
+}
+.portfolio {
+	display: flex;
+	justify-content: space-between;
+}
+.heading {
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+.filter {
+	font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+	.App {
+		flex-direction: column;
+	}
+}
