@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/i-darts-Test/static/css/main.0c4abb96.css",
+    "main.js": "/i-darts-Test/static/js/main.6cd52b15.js",
+    "index.html": "/i-darts-Test/index.html",
+    "main.0c4abb96.css.map": "/i-darts-Test/static/css/main.0c4abb96.css.map",
+    "main.6cd52b15.js.map": "/i-darts-Test/static/js/main.6cd52b15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c4abb96.css",
+    "static/js/main.6cd52b15.js"
+  ]
+}
